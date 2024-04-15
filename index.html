@@ -16,21 +16,30 @@
   <!-- Styles -->
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/picocss/2.0.6/pico.min.css" rel="stylesheet" type="text/css" /> -->
+
 
   <!-- Markdown-It -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.2/markdown-it.min.js"></script>
 </head>
 
 <body>
   <header>
     <nav>
-
+      <ul>
+        <li><img id="logo" src="autism_nexus_stroke_logo.svg"></li>
+      </ul>
+      <ul>
+        <li><a href="#">Basics</a></li>
+        <li><a href="#">Details</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
     </nav>
   </header>
-  <div class="grid-container">
-    <div id="article-outline" class="merriweather-bold"></div>
-    <div id="article-section" class="lato-regular"></div>
-  </div>
+  
+  <div id="main"></div>
 
   <script src="js/outline.js"></script>
   <script src="js/mml.js"></script>
